@@ -55,7 +55,7 @@ const HomeTestimonial: FC = () => {
   const sliderConfig: Settings = {
     infinite: true,
     autoplay: true,
-    speed: 300,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: <SliderArrow type="prev" />,
@@ -89,7 +89,7 @@ const HomeTestimonial: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Students{' '}
+                Clients{' '}
                 <Box
                   sx={{
                     position: 'absolute',

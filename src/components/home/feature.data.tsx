@@ -12,23 +12,25 @@ interface Data {
 
 export const data: Data[] = [
   {
-    title: 'Easy Accessable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Easily Accessable',
+    description:
+      'The only thing you need is your whatsapp and a web browser app  download required nor account registration required',
     icon: <ArtTrackIcon />,
   },
   {
     title: 'More Affordable Cost',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description: "It's cheaper and more convinient like the available cv-creators in the market",
     icon: <AttachMoneyIcon />,
   },
   {
-    title: 'Flexible Study Time',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Fast and Efficient',
+    description:
+      'Our cv processing system is very fast and easy to use, it takes less than a minute to process a cv/Resume.',
     icon: <LocalLibraryIcon />,
   },
   {
-    title: 'Consultation With Mentor',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Customize your CV/Resume',
+    description: 'Our AI bot can customize your CV to match a specific job description while revamping',
     icon: <ContactSupportIcon />,
   },
 ]

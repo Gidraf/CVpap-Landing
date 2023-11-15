@@ -3,62 +3,74 @@ import type { Testimonial } from '@/interfaces/testimonial'
 export const data: Array<Testimonial> = [
   {
     id: 1,
-    title: 'Detailed learning materials',
+    title: 'Effortless CV Creation!',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      'CVPAP made creating my CV a breeze! The WhatsApp bot is user-friendly, guiding me through the process step by step. The templates are professional, and I had my polished CV ready in no time.',
     user: {
       id: 1,
-      name: 'Luis Sera',
-      professional: 'UI/UX Engineer',
+      name: 'Jane Maina',
+      professional: 'Marketing Specialist',
       photo: '1.jpg',
     },
   },
   {
     id: 2,
-    title: 'Best Quality Online Course!',
+    title: 'Quick and Convenient!',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'I needed a CV urgently, and CVPAP delivered! The service is super convenient through WhatsApp, and the turnaround time was impressive. Highly recommended for anyone needing a fast and reliable CV builder.',
     user: {
       id: 1,
-      name: 'Riski',
-      professional: 'Software Engineer',
+      name: 'Brian Omondi',
+      professional: 'IT Consultant',
       photo: '2.jpg',
     },
   },
   {
     id: 3,
-    title: 'Very complete class',
+    title: 'Tailored CVs for Success',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'CVPAP understands the job market. The personalized approach helped me highlight my strengths effectively. The result? A CV that stands out and gets noticed by employers. Thank you, CVPAP!',
     user: {
       id: 1,
-      name: 'Nguyễn Văn',
-      professional: 'FullStack Designer',
+      name: 'Grace Wanjiru',
+      professional: 'Finance Manager',
       photo: '3.jpg',
     },
   },
   {
     id: 4,
-    title: 'Great Quality!',
+    title: 'Efficient and Professional!',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'I appreciate the professionalism CVPAP brought to my CV building experience. The process is efficient, and the outcome exceeded my expectations. I confidently recommend CVPAP for anyone seeking top-notch CV services.',
     user: {
       id: 1,
-      name: 'Diana Jordan',
-      professional: 'SEO Expert',
+      name: 'Daniel Odhiambo',
+      professional: 'Project Manager',
       photo: '4.jpg',
     },
   },
   {
     id: 5,
-    title: 'Detailed learning materials',
+    title: 'User-Friendly and Effective!',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      "CVPAP's WhatsApp bot is a game-changer! The CV creation process is user-friendly, even for those not tech-savvy. The result is a well-crafted CV that reflects my skills and experience accurately.",
     user: {
       id: 1,
-      name: 'Ashley Graham',
-      professional: 'Back-End Developer',
+      name: 'Mercy Cheptoo',
+      professional: 'HR Specialist',
       photo: '5.jpg',
+    },
+  },
+  {
+    id: 6,
+    title: 'CVPAP Delivers Excellence!',
+    content:
+      "I can't praise CVPAP enough! The quality of service is outstanding. The CVs created are not just documents; they are powerful tools for career success. Trust CVPAP for a professional and impactful CV.",
+    user: {
+      id: 1,
+      name: 'Samuel Nyangau',
+      professional: 'Sales Executive',
+      photo: '6.jpg',
     },
   },
 ]
