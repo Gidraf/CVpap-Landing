@@ -12,25 +12,26 @@ interface Data {
 
 export const data: Data[] = [
   {
-    title: 'Easily Accessable',
+    title: 'Effortless Accessibility',
     description:
-      'The only thing you need is your whatsapp and a web browser app  download required nor account registration required',
+      'Experience seamless access with just your WhatsApp and a web browser, no downloads or account registrations required.',
     icon: <ArtTrackIcon />,
   },
   {
-    title: 'More Affordable Cost',
-    description: "It's cheaper and more convinient like the available cv-creators in the market",
+    title: 'Cost-Effective Solution',
+    description: 'Enjoy affordability and convenience that surpasses other CV creators in the market.',
     icon: <AttachMoneyIcon />,
   },
   {
-    title: 'Fast and Efficient',
+    title: 'Swift and Effective',
     description:
-      'Our cv processing system is very fast and easy to use, it takes less than a minute to process a cv/Resume.',
+      'Our CV processing system is remarkably fast and user-friendly, ensuring your CV/Resume is processed in less than a minute.',
     icon: <LocalLibraryIcon />,
   },
   {
-    title: 'Customize your CV/Resume',
-    description: 'Our AI bot can customize your CV to match a specific job description while revamping',
+    title: 'Tailor Your CV/Resume',
+    description:
+      'Let our AI bot customize your CV to align perfectly with a specific job description, giving it a competitive edge.',
     icon: <ContactSupportIcon />,
   },
 ]

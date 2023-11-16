@@ -4,7 +4,7 @@ export const data: Array<Course> = [
   {
     id: 1,
     cover: '/images/courses/free.jpg',
-    title: 'Free CV/Resume Review',
+    title: 'Complimentary CV/Resume Review',
     rating: 5,
     ratingCount: 8,
     price: 0,
@@ -13,7 +13,7 @@ export const data: Array<Course> = [
   {
     id: 2,
     cover: '/images/courses/customize.png',
-    title: 'CV/Resume Revamping Customization',
+    title: 'Personalized CV/Resume Revamping',
     rating: 5,
     ratingCount: 500,
     price: 100,
@@ -22,7 +22,7 @@ export const data: Array<Course> = [
   {
     id: 3,
     cover: '/images/courses/coverletter.svg',
-    title: 'Generate a Cover Letter (Coming Soon)',
+    title: 'Craft a Cover Letter (Coming Soon)',
     rating: 4,
     ratingCount: 7,
     price: 0,
@@ -31,7 +31,7 @@ export const data: Array<Course> = [
   {
     id: 4,
     cover: '/images/courses/ats.jpeg',
-    title: 'Generate an ATS CV/Resume (Coming Soon)',
+    title: 'Generate an ATS-Optimized CV/Resume (Coming Soon)',
     rating: 4,
     ratingCount: 12,
     price: 0,
