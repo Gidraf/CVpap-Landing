@@ -58,25 +58,25 @@ const HomeFeature: FC = () => {
                 }}
               >
                 <Typography variant="h5" sx={{ mb: 1 }}>
-                  Lorem ipsum dolor
+                  World Class Services
                 </Typography>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    UI/UI Design
+                    CV/Resume Review
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={85} order={1} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Mobile Development
+                    CV/Resume Customization
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={40} order={2} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={90} order={2} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Web Development
+                    CV/Resume Download
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={95} order={3} />
                 </Box>
               </Box>
 

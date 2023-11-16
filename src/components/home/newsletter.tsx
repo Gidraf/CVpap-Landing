@@ -18,10 +18,10 @@ const HomeNewsLetter: FC = () => {
             textAlign: 'center',
           }}
         >
-          <Typography variant="h1" component="h2" sx={{ mb: 1, fontSize: { xs: 32, md: 42 } }}>
-            Subscribe to Our News Letter
+          <Typography variant="h1" component="h2" sx={{ mb: 1, fontSize: { xs: 32, md: 42, color: 'white' } }}>
+            {'Upgrade your CV now'}
           </Typography>
-          <Typography sx={{ mb: 6 }}>Subscribe to our newsletter to get information about our courses.</Typography>
+          {/* <Typography sx={{ mb: 6 }}>Click the button below if you would like</Typography> */}
 
           <Box
             sx={{
@@ -33,21 +33,9 @@ const HomeNewsLetter: FC = () => {
               mx: 'auto',
             }}
           >
-            <InputBase
-              sx={{
-                backgroundColor: 'background.paper',
-                borderRadius: 3,
-                width: '100%',
-                height: 48,
-                px: 2,
-                mr: { xs: 0, md: 3 },
-                mb: { xs: 2, md: 0 },
-              }}
-              placeholder="Enter your Email Address"
-            />
             <Box>
               <StyledButton disableHoverEffect size="large">
-                Subscribe
+                Upgrade Now
               </StyledButton>
             </Box>
           </Box>

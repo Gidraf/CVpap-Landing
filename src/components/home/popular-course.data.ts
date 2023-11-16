@@ -3,7 +3,7 @@ import type { Course } from '@/interfaces/course'
 export const data: Array<Course> = [
   {
     id: 1,
-    cover: '/images/courses/a9e7b27a0c5e986a22416d79e2e9dba9.jpg',
+    cover: '/images/courses/free.jpg',
     title: 'Free CV/Resume Review',
     rating: 5,
     ratingCount: 8,
@@ -12,7 +12,7 @@ export const data: Array<Course> = [
   },
   {
     id: 2,
-    cover: '/images/courses/alvaro-reyes-qWwpHwip31M-unsplash.jpg',
+    cover: '/images/courses/customize.png',
     title: 'CV/Resume Revamping Customization',
     rating: 5,
     ratingCount: 500,
@@ -21,7 +21,7 @@ export const data: Array<Course> = [
   },
   {
     id: 3,
-    cover: '/images/courses/christopher-gower-m_HRfLhgABo-unsplash.jpg',
+    cover: '/images/courses/coverletter.svg',
     title: 'Generate a Cover Letter (Coming Soon)',
     rating: 4,
     ratingCount: 7,
@@ -30,7 +30,7 @@ export const data: Array<Course> = [
   },
   {
     id: 4,
-    cover: '/images/courses/true-agency-o4UhdLv5jbQ-unsplash.jpg',
+    cover: '/images/courses/ats.jpeg',
     title: 'Generate an ATS CV/Resume (Coming Soon)',
     rating: 4,
     ratingCount: 12,
