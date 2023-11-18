@@ -3,6 +3,7 @@ export interface Course {
   title: string
   cover: string
   rating: number
+  to: string
   ratingCount: number
   price: number
   category: string

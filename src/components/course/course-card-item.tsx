@@ -63,12 +63,14 @@ const CourseCardItem: FC<Props> = ({ item }) => {
             </Typography>
             {/* <Typography variant="h6"></Typography> */}
           </Box>
-          <IconButton
-            color="primary"
-            sx={{ '&:hover': { backgroundColor: 'primary.main', color: 'primary.contrastText' } }}
-          >
-            <ArrowForward />
-          </IconButton>
+          <a href={item.to}>
+            <IconButton
+              color="primary"
+              sx={{ '&:hover': { backgroundColor: 'primary.main', color: 'primary.contrastText' } }}
+            >
+              <ArrowForward />
+            </IconButton>
+          </a>
         </Box>
       </Box>
     </Box>

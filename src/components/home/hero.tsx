@@ -143,11 +143,17 @@ const HomeHero: FC = () => {
                 </Typography>
               </Box>
               <Box sx={{ '& button': { mr: 2 } }}>
-                <ScrollLink to="popular-course" spy={true} smooth={true} offset={0} duration={350}>
+                <a
+                  href="https://api.whatsapp.com/send?phone=254735143282&text=Hi"
+                  // spy={true}
+                  // smooth={true}
+                  // offset={0}
+                  // duration={350}
+                >
                   <StyledButton color="primary" size="large" variant="contained">
                     Get Started
                   </StyledButton>
-                </ScrollLink>
+                </a>
                 <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
                   <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
                     Watch Video
@@ -197,7 +203,7 @@ const HomeHero: FC = () => {
                   Free CV/Resume Review
                 </Typography>
                 <Typography variant="subtitle1" sx={{ color: 'text.secondary', lineHeight: 1.3 }}>
-                  We offer free Resume/CV review, powered by AI in instantly
+                  We offer free Resume/CV review, powered by AI instantly.
                 </Typography>
               </Box>
             </Box>
