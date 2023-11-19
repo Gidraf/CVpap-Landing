@@ -30,6 +30,7 @@ const App: FC<AppPropsWithLayout> = (props: AppPropsWithLayout) => {
     <CacheProvider value={emotionCache}>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <meta name="description" content="/icons/description.png" property="og:image" />
         <title>CVpap</title>
       </Head>
       <MUIProvider>
