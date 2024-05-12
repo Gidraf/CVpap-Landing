@@ -84,7 +84,7 @@ const HomeFeature: FC = () => {
                 sx={{
                   position: 'absolute',
                   bottom: -12,
-                  left: { xs: 0, md: -24 },
+                  left: { xs: 0, md: -4 },
                   boxShadow: 2,
                   borderRadius: 1,
                   px: 2.2,
