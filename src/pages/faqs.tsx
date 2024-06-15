@@ -128,9 +128,23 @@ const faqs = [
     answer: 'Currently We offer Designes listed on our Catalogue',
   },
   {
-    question: 'How much is the CVpap',
+    question: 'How much is the Cv revamping services cost',
     answer:
-      'Our prices ranges, kindly have a look at our whatsapp catalogue to view your desired prices, this si the link: https://wa.me/c/254735143282',
+      `Our prices ranges, kindly have a look at our whatsapp catalogue to view your desired prices, this si the link: https://wa.me/c/254735143282, 
+      This are our products and prices all are in kenya shillings
+      "azurill":"240",
+      "bronzor":"210",
+      "chikorita":"290",
+      "ditto":"270",
+      "gengar":"230",
+      "glalie":"200",
+      "kakuna":"200",
+      "leafish":"260",
+      "nosepass":"300",
+      "onyx":"195",
+      "pikachu":"205",
+      "rhyhorn":"200",`,
+      "Cover Letter": "150"
   },
   {
     question: 'How Do I remove the watermark',
