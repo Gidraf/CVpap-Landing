@@ -48,17 +48,17 @@ const faqs = [
   {
     question: 'Is it necessary to strictly follow the given steps for successful CV/Resume revamping?',
     answer:
-      'Yes, it is essential to strictly follow the given steps for successful CV/Resume revamping. Following the steps ensures a smooth and efficient processing experience.',
+      'Yes, it is essential to strictly follow the given steps for successful CV/Resume revamping. Following the steps ensures a smooth and efficient processing experience. Our systems are configured to follow the steps set in place by the creator',
   },
   {
     question: 'What if I encounter any issues during the CV/Resume revamping process?',
     answer:
-      "If you encounter any issues during the CV/Resume revamping process, please reach out to CVpap's support team for assistance. We are here to help resolve any concerns you may have.",
+      "If you encounter any issues during the CV/Resume revamping process, please reach out to CVpap's support team for assistance. We are here to help resolve any concerns you may have. This issues only comes with not able to access the services, but regarding cv creation process all the services are self service",
   },
   {
     question: "Who can I contact for support or inquiries regarding CVpap's services?",
     answer:
-      "For support or inquiries regarding CVpap's services, please contact our support team through the Contact Us section on our website.",
+      "For support or inquiries regarding CVpap's services, please contact our support team through the Contact Us section on our website. our customer@cvpap.com",
   },
   {
     question: 'Can I trust CVpap with my CV/Resume revamping?',
@@ -68,27 +68,21 @@ const faqs = [
   {
     question: 'Is there a refund policy for CV/Resume revamping services?',
     answer:
-      "CVpap's refund policy is detailed in our Terms & Conditions section on our website. Please refer to the refund policy for more information.",
+      'We refund the Cash within 48 hurs of payment. If you paid via the online link for those that use M-pesa app will receive the update after 10-14 days of working days. We advice our clients to only make the payment after they are satisfied with the cv creation, since you can process the cv to a maximum of 15 tries before making the payment, we are hopefully in this tries you will find a suitable version for you to make purchase to.',
   },
   {
     question: "How can I provide feedback on CVpap's CV/Resume revamping services?",
     answer:
-      'We welcome feedback from our users to continually improve our CV/Resume revamping services. You can provide feedback through our website or contact our support team directly.',
+      'We welcome feedback from our users to continually improve our CV/Resume revamping services. You can provide feedback through our website or contact our support team directly. Or through our social media platforms.',
   },
   {
     question: 'Does CVpap offer assistance with cover letters or ATS CVs?',
-    answer:
-      'CVpap is planning to introduce assistance with cover letters and ATS CVs in the future. Stay tuned for updates on our services.',
+    answer: `Yes we do offer assistance for cover letter and all our cv are ATS compliance since it's AI generated`,
   },
   {
     question: 'Can I receive notifications on the status of my CV/Resume revamping process?',
     answer:
-      'CVpap is working on implementing notification features to keep users informed about the status of their CV/Resume revamping process. We will announce updates on this feature soon.',
-  },
-  {
-    question: 'Where can I find CVpap on social media?',
-    answer:
-      'You can find CVpap on various social media platforms such as Instagram, YouTube, Twitter, Dribbble, and GitHub. Follow us for updates and announcements.',
+      'We Do notify Users instantly once the Cv is done, if it has taken longer to process your CV it may be an issue with your document format or networking issues while we process your. We advice to repeat the process. We are working to improve this experience ',
   },
   {
     question: 'Does CVpap have a privacy policy?',
@@ -137,6 +131,29 @@ const faqs = [
     question: 'How much is the CVpap',
     answer:
       'Our prices ranges, kindly have a look at our whatsapp catalogue to view your desired prices, this si the link: https://wa.me/c/254735143282',
+  },
+  {
+    question: 'How Do I remove the watermark',
+    answer:
+      'To remove the watermark, open the link given to you with your resume sample, click on download pdf, from there you will be proceed in making the purchase via M-pesa. Please use the method to make the payment any other method of payment to receive your cv instantly if you pay directly via mpesa app you will have to wait upto 7 days for your payment to be processed so that you may receive your cv. Make sure you are satisfied with what you are paying for. if not kindly process the cv again to get a different data.',
+  },
+  {
+    question: 'How Do I Edit My Cv',
+    answer:
+      'To edit your Cv, open the link given to you with your resume sample, click Edit on the top left corner of your screen , Scroll to the session you want to edit then Edit. Please note the basic inputs e.g. email phone and anmes are saved automatically, but the other sestion you will have to click on the  in order to edit or click an add button in order to add',
+  },
+  {
+    question: 'Can you Edit for Me',
+    answer:
+      'Currently all our services are self services, this means you will be given the link for you to edit the cv viw our web portal platform. Due to high volume of CV received we can not process every cv on our end that is why we offer you with the link for better experience',
+  },
+  {
+    question: `I have paid via the method but I can't get the cv`,
+    answer: `If you have you have paid but you haven't received the cv/resume, you can open the link given and click on the download pdf button, you won;t have to pay again`,
+  },
+  {
+    question: `Is it subscriptory Plan or I have to Pay everytime I download the Cv`,
+    answer: `The payments is only valid for 90 days. Since we refresh Our Database every 90 Days`,
   },
 ]
 const Faqs: NextPageWithLayout = () => {
