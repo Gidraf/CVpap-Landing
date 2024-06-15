@@ -77,7 +77,7 @@ const faqs = [
   },
   {
     question: 'Does CVpap offer assistance with cover letters or ATS CVs?',
-    answer: `Yes we do offer assistance for cover letter and all our cv are ATS compliance since it's AI generated`,
+    answer: `Yes we do offer assistance for cover letter and all our cv are ATS compliance since it's AI generated use this link to and select cover letter link: https://wa.me/c/254735143282`,
   },
   {
     question: 'Can I receive notifications on the status of my CV/Resume revamping process?',
